@@ -1,4 +1,4 @@
-# euroscopeinstaller
+# Installer for VATSIM - RG Berlin
 
 This repository contains an initial installer to set up an EuroScope & AudioForVATSIM installation for
 trainees of the RG Berlin. It contains the newest releases of EuroScope, AIRAC, ModeS and VCH.
