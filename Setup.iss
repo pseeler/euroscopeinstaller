@@ -1,30 +1,32 @@
 #include ReadReg(HKLM, 'Software\WOW6432Node\Mitrich Software\Inno Download Plugin', 'InstallDir') + '\idp.iss'
 #include 'ToolsDownloader.iss'
 
-#define MyAppName "VATGER RG Berlin - Euroscope"
-#define MyAppVersion "1.0"
-#define MyAppPublisher "VATGER - RG Berlin"
-#define MyAppURL "https://vatsim-germany.org/"
-#define MyAppExeName "ATCStartup.bat" 
+#define InstallerName "VATGER RG Berlin - ATC"
+#define InstallerMajorVersion "1"
+#define InstallerMinorVersion "0"
+#define InstallerBuildVersion "0"
+#define InstallerPublisher "Sven Czarnian"
+#define InstallerURL "https://vatsim-germany.org/"
+#define InstallerExeName "ATCStartup.bat" 
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{E616C5AD-92C6-42CA-A8D5-B9B83384E28E}}
-AppName={#MyAppName}
-AppVersion={#MyAppVersion}
-AppVerName={#MyAppName} {#MyAppVersion}
-AppPublisher={#MyAppPublisher}
-AppPublisherURL={#MyAppURL}
-AppSupportURL={#MyAppURL}
-AppUpdatesURL={#MyAppURL}
+AppName={#InstallerName}
+AppVersion={#InstallerMajorVersion}.{#InstallerMinorVersion}.{#InstallerBuildVersion}
+AppVerName={#InstallerName} {#InstallerMajorVersion}.{#InstallerMinorVersion}.{#InstallerBuildVersion}
+AppPublisher={#InstallerPublisher}
+AppPublisherURL={#InstallerURL}
+AppSupportURL={#InstallerURL}
+AppUpdatesURL={#InstallerURL}
 DefaultDirName={%HOMEPATH}\Euroscope
 DisableProgramGroupPage=yes
 UsedUserAreasWarning=no
 PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
 OutputDir=installer
-OutputBaseFilename=Installer
+OutputBaseFilename=Installer_v{#InstallerMajorVersion}_{#InstallerMinorVersion}_{#InstallerBuildVersion}
 SetupIconFile=content\logo.ico
 Compression=lzma2/ultra64
 SolidCompression=yes
@@ -64,12 +66,12 @@ Type: files; Name: "{app}\*.txt";
 Type: filesandordirs; Name: "{app}\AudioForVATSIM"
 
 [Icons]
-Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; IconFilename: "{app}\logo.ico"; IconIndex: 0; WorkingDir: "{app}"
-Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon; IconFilename: "{app}\logo.ico"; IconIndex: 0; WorkingDir: "{app}"
-Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: quicklaunchicon; IconFilename: "{app}\logo.ico"; IconIndex: 0; WorkingDir: "{app}"
+Name: "{autoprograms}\{#InstallerName}"; Filename: "{app}\{#InstallerExeName}"; IconFilename: "{app}\logo.ico"; IconIndex: 0; WorkingDir: "{app}"
+Name: "{autodesktop}\{#InstallerName}"; Filename: "{app}\{#InstallerExeName}"; Tasks: desktopicon; IconFilename: "{app}\logo.ico"; IconIndex: 0; WorkingDir: "{app}"
+Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\{#InstallerName}"; Filename: "{app}\{#InstallerExeName}"; Tasks: quicklaunchicon; IconFilename: "{app}\logo.ico"; IconIndex: 0; WorkingDir: "{app}"
 
 [Run]
-Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: shellexec postinstall skipifsilent
+Filename: "{app}\{#InstallerExeName}"; Description: "{cm:LaunchProgram,{#StringChange(InstallerName, '&', '&&')}}"; Flags: shellexec postinstall skipifsilent
 
 [Code]
 // Brief:
