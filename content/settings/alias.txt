@@ -1,0 +1,36 @@
+.id identified.
+.sq hello, set squawk $squawk.
+.uni you're leaving my airspace, monitor Unicom 122.800- have a good flight!
+.far you're outside my airspace, monitor Unicom 122.800- have a good flight!
+.pd proceed direct to $1.
+.clf climb FL$1.
+.dfl descend FL$1.
+.clr information $atiscode correct. Startup approved, cleared $arr via $sid departure, climb $1000ft, flight planned route, squawk $squawk.
+.clrc check information $atiscode. Startup approved, cleared to $arr via $sid departure, climb $1000ft, flight planned route, squawk $squawk.
+.clrv information $atiscode correct. Startup approved, cleared to $arr via vectored departure, climb $1000ft, runway heading, flight planned route, squawk $squawk.
+.clrcv check information $atiscode. Startup approved, cleared to $arr via vectored departure, climb $1000ft, runway heading, flight planned route, squawk $squawk.
+.pn pushback approved, facing north.
+.pe pushback approved, facing east.
+.ps pushback approved, facing south.
+.pw pushback approved, facing west.
+.th taxi to holding point runway $1 via $2.
+.tg taxi to gate $1 via $2.
+.con contact $1 on $2, goodbye!
+.cft wind $wind($dep), runway $deprwy, cleared for takeoff.
+.ctl wind $wind($arr), runway $arrrwy, cleared to land.
+.clarr cleared $star arrival.
+.rc readback correct.
+.tl turn left heading $1.
+.tr turn right heading $1.
+.lu line up runway $deprwy and wait.
+.lub behind departing aircraft line up runway $deprwy and wait behind.
+.oho You are supposed to switch to departure on your own when passing 2000ft. Please keep that in mind for next time- have a nice flight!
+.ohoinit You are supposed to switch to departure on your own when passing 2000ft. Initial climb for this runway is $1000ft. Please keep that in mind for next time- have a nice flight!
+.dtr descend to reach FL $1 at $2.
+.welcome welcome to Berlin, vacate $1, cross $2, on the other side contact GND on 121.75, goodbye!
+.idarr identified. Expect ILS approach runway $1, descend FL$2.
+.da descend altitude $000ft, QNH$altim($arr).
+.co contact $radioname($1) on frequency $freq($1)
+.neuling Trainingsdokumente findest du auf https://de.wiki.vatsim-germany.org/Piloten_Trainingsdokumente
+.newbie you can find training resources on http://www.vatsim.net/prc
+.low you are below my airspace, I only cover the upper airspace (FL245 and above). Monitor Unicom 122.80, goodbye!

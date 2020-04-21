@@ -1,0 +1,377 @@
+RECORD:-:Minus.wav
+RECORD: :Silence.wav
+RECORD:  :Silence.wav
+RECORD:   :Silence.wav
+RECORD:    :Silence.wav
+RECORD:,:Decimal.wav
+RECORD:.:Decimal.wav
+RECORD:+:Plus.wav
+RECORD:0:0.wav
+RECORD:00:Hundred.wav
+RECORD:000:Thousand.wav
+RECORD:1:1.wav
+RECORD:10:10.wav
+RECORD:10 To 25 Percent:10_To_25_Percent.wav
+RECORD:11:11.wav
+RECORD:12:12.wav
+RECORD:13:13.wav
+RECORD:14:14.wav
+RECORD:15:15.wav
+RECORD:16:16.wav
+RECORD:17:17.wav
+RECORD:18:18.wav
+RECORD:19:19.wav
+RECORD:2:2.wav
+RECORD:20:20.wav
+RECORD:25 To 50 Percent:25_To_50_Percent.wav
+RECORD:3:3.wav
+RECORD:30:30.wav
+RECORD:4:4.wav
+RECORD:40:40.wav
+RECORD:5:5.wav
+RECORD:50:50.wav
+RECORD:6:6.wav
+RECORD:60:60.wav
+RECORD:7:7.wav
+RECORD:70:70.wav
+RECORD:8:8.wav
+RECORD:80:80.wav
+RECORD:9:9.wav
+RECORD:90:90.wav
+RECORD:A:A.wav
+RECORD:Above:Above.wav
+RECORD:AC:Altocumulus.wav
+RECORD:Advise On Initial Contact You Have Information:Advise_On_Initial_Contact_You_Have_Information.wav
+RECORD:After:After.wav
+RECORD:Aircraft With Parking Position On Apron 1 Or 3 Expect Departure And Arrival Runway 08L:EDDP_Parking08.wav
+RECORD:Aircraft With Parking Position On Apron 1 Or 3 Expect Departure And Arrival Runway 26R:EDDP_Parking26.wav
+RECORD:All Runways:All_Runways.wav
+RECORD:Altitude:Altitude.wav
+RECORD:Altocumulus:Altocumulus.wav
+RECORD:And:And.wav
+RECORD:Approach:Approach.wav
+RECORD:At:At.wav
+RECORD:Attention:Attention.wav
+RECORD:Attention!:Attention.wav
+RECORD:Augsburg:EDMA.wav
+RECORD:Automated Weather Message:Automated_Weather_Message.wav
+RECORD:Automatic Weather Report:Automatic_Weather_Report.wav
+RECORD:B:B.wav
+RECORD:Baden:EDSB.wav
+RECORD:Becoming:Becoming.wav
+RECORD:Below:Below.wav
+RECORD:Below 10 Percent:Below_10_Percent.wav
+RECORD:Berlin Brandenburg:EDDB_BER.wav
+RECORD:Berlin Schoenefeld:EDDB_SXF.wav
+RECORD:Berlin Tegel:EDDT.wav
+RECORD:Bird Activity Over Airport:Bird_Activity_Over_Airport.wav
+RECORD:Birds Observed In Vicinity Of All Runways:Birds_Observed_In_Vicinity_Of_All_Runways.wav
+RECORD:Birds Observed In Vicinity Of Runway:Birds_Observed_In_Vicinity_Of_Runway.wav
+RECORD:Birds Observed In Vicinity Of Runways:Birds_Observed_In_Vicinity_Of_Runways.wav
+RECORD:Blowing Dust:Blowing_Dust.wav
+RECORD:Blowing Sand:Blowing_Sand.wav
+RECORD:Blowing Snow:Blowing_Snow.wav
+RECORD:Braking Action:Braking_Action.wav
+RECORD:Braunschweig-Wolfsburg:EDVE.wav
+RECORD:Bremen:EDDW.wav
+RECORD:Bremen Radar:EDWW.wav
+RECORD:Broken:Broken.wav
+RECORD:By:By.wav
+RECORD:C:C.wav
+RECORD:Cavok:CAVOK.wav
+RECORD:CB:Cumulonimbus.wav
+RECORD:Center:Center.wav
+RECORD:Centimeter:Centimeter.wav
+RECORD:Centimeter Or More:Centimeter_Or_More.wav
+RECORD:Centimeters:Centimeters.wav
+RECORD:Centimeters Or More:Centimeters_Or_More.wav
+RECORD:Charts Available For Free On www.Vatsim-Germany.Org:Charts.wav
+RECORD:CI:Cirrus.wav
+RECORD:Circling:Circling.wav
+RECORD:Cirrus:Cirrus.wav
+RECORD:Clear:Clear.wav
+RECORD:Clear And Dry:Clear_And_Dry.wav
+RECORD:Cleared Of Deposits:Cleared_Of_Deposits.wav
+RECORD:Closed:Closed.wav
+RECORD:Closed Due Clearance In Progress:Closed_Due_Clearance_In_Progress.wav
+RECORD:Clouds:Clouds.wav
+RECORD:Clouds And Visibility Ok:CAVOK_long.wav
+RECORD:CLR:Clear.wav
+RECORD:CM:Centimeter.wav
+RECORD:CM Or More:Centimeter_Or_More.wav
+RECORD:CMs:Centimeters.wav
+RECORD:CMs or More:Centimeters_Or_More.wav
+RECORD:Coburg:EDQC.wav
+RECORD:Cologne Bonn:EDDK.wav
+RECORD:Compacted Or Rolled Snow:Compacted_Or_Rolled_Snow.wav
+RECORD:Covered With:Covered_With.wav
+RECORD:Cumulonimbus:Cumulonimbus.wav
+RECORD:D:D.wav
+RECORD:Damp:Damp.wav
+RECORD:Degrees:Degrees.wav
+RECORD:Departure Frequency:Departure_Frequency.wav
+RECORD:Departure Frequency For All Departing Aircraft Is:Departure_Frequency_For_All_Departing_Aircraft_Is.wav
+RECORD:Departure Runway:Departure_Runway.wav
+RECORD:Deposits 10 To 25 Percent:Deposits_10_To_25_Percent.wav
+RECORD:Deposits 25 To 50 Percent:Deposits_25_To_50_Percent.wav
+RECORD:Deposits Below 10 Percent:Deposits_Below_10_Percent.wav
+RECORD:Deposits More Than 50 Percent:Deposits_More_Than_50_Percent.wav
+RECORD:Dew Point:Dew_Point.wav
+RECORD:Dortmund:EDLW.wav
+RECORD:Downgrading:Downgrading.wav
+RECORD:Dresden:EDDC.wav
+RECORD:Drizzle:Drizzle.wav
+RECORD:Dry Snow:Dry_Snow.wav
+RECORD:Due to work in progress:Due_to_work_in_progress.wav
+RECORD:Duesseldorf:EDDL.wav
+RECORD:Dust Whirls:Dust_Whirls.wav
+RECORD:Duststorm:Duststorm.wav
+RECORD:E:E.wav
+RECORD:East:East.wav
+RECORD:Eggenfelden:EDME.wav
+RECORD:Erfurt:EDDE.wav
+RECORD:Expect:Expect.wav
+RECORD:Expect Dependent Parallel ILS Approach:Expect_Dependent_Parallel_ILS_Approach.wav
+RECORD:expect GBAS approach:expect_GBAS_approach.wav
+RECORD:expect GPS approach:expect_GPS_approach.wav
+RECORD:expect ILS approach:expect_ILS_approach.wav
+RECORD:Expect Independent Parallel ILS Approach:Expect_Independent_Parallel_ILS_Approach.wav
+RECORD:expect Localizer DME approach:expect_Localizer_DME_approach.wav
+RECORD:expect NDB approach:expect_NDB_approach.wav
+RECORD:expect Visual approach:expect_Visual_approach.wav
+RECORD:expect VOR DME approach:expect_VOR_DME_approach.wav
+RECORD:F:F.wav
+RECORD:Feet:Feet.wav
+RECORD:Few:Few.wav
+RECORD:Fog:Fog.wav
+RECORD:Fog Obscured:Fog_Obscured.wav
+RECORD:For Departure Expect:For_Departure_Expect.wav
+RECORD:For Landing:For_Landing.wav
+RECORD:For Take Off:For_Take_Off.wav
+RECORD:Frankfurt:EDDF.wav
+RECORD:Frankfurt - Hahn:EDFH_Long.wav
+RECORD:Frankfurt Main:EDDF_Main.wav
+RECORD:Freezing:Freezing.wav
+RECORD:Freezing Drizzle:Freezing_Drizzle.wav
+RECORD:Freezing Fog:Freezing_Fog.wav
+RECORD:Freezing Precipitation:Freezing_Precipitation.wav
+RECORD:Freezing Rain:Freezing_Rain.wav
+RECORD:Friction Coefficient:Friction_Coefficient.wav
+RECORD:Friedrichshafen:EDNY.wav
+RECORD:Frozen Ruts Or Ridges:Frozen_Ruts_Or_Ridges.wav
+RECORD:Funnel Cloud:Funnel_Cloud.wav
+RECORD:G:G.wav
+RECORD:GBAS:GBAS.wav
+RECORD:Good:Good.wav
+RECORD:GPS:GPS.wav
+RECORD:Gust:Gust.wav
+RECORD:Gusts Up To:Gusts_Up_To.wav
+RECORD:Guten Abend:Guten_Abend.wav
+RECORD:Guten Tag:Guten_Tag.wav
+RECORD:H:H.wav
+RECORD:Hahn:EDFH.wav
+RECORD:Hail:Hail.wav
+RECORD:Hamburg:EDDH.wav
+RECORD:Hannover:EDDV.wav
+RECORD:Haze:Haze.wav
+RECORD:Heavy:Heavy.wav
+RECORD:Hectopascal:hPa.wav
+RECORD:hPa:hPa.wav
+RECORD:Hundred:Hundred.wav
+RECORD:I:I.wav
+RECORD:Ice:Ice.wav
+RECORD:Ice Crystals:Ice_Crystals.wav
+RECORD:Ice Pellets:Ice_Pellets.wav
+RECORD:ILS:ILS.wav
+RECORD:ILS Y Approach:ILS_Yankee_Approach.wav
+RECORD:ILS Z Approach:ILS_Zulu_Approach.wav
+RECORD:In Depth:In_Depth.wav
+RECORD:In The Vicinity:In_The_Vicinity.wav
+RECORD:In Use:In_Use.wav
+RECORD:Inches:Inches.wav
+RECORD:Information:Information.wav
+RECORD:J:J.wav
+RECORD:K:K.wav
+RECORD:Kassel:EDVK.wav
+RECORD:Kilometers:Kilometers.wav
+RECORD:Knots:Knots.wav
+RECORD:Koeln Bonn:EDDK_DEU.wav
+RECORD:L:L.wav
+RECORD:Landing Runway:Landing_Runway.wav
+RECORD:Langen Radar:EDGG.wav
+RECORD:Left:Left.wav
+RECORD:Leipzig:EDDP.wav
+RECORD:Leipzig Halle:EDDP_Long.wav
+RECORD:Less Than:Less_Than.wav
+RECORD:Light:Light.wav
+RECORD:Localizer :LOC.wav
+RECORD:Low Drifting Dust:Low_Drifting_Dust.wav
+RECORD:Low Drifting Sand:Low_Drifting_Sand.wav
+RECORD:Low Drifting Snow:Low_Drifting_Snow.wav
+RECORD:Low-Visibility Procedures Cat II In Operation:Low-Visibility_Procedures_Cat_II_In_Operation.wav
+RECORD:Low-Visibility Procedures Cat III In Operation:Low-Visibility_Procedures_Cat_III_In_Operation.wav
+RECORD:Luebeck:EDHL.wav
+RECORD:M:M.wav
+RECORD:Maastricht Radar:EDYY.wav
+RECORD:Mannheim:EDFM.wav
+RECORD:Medium:Medium.wav
+RECORD:Medium To Good:Medium_To_Good.wav
+RECORD:Medium To Poor:Medium_To_Poor.wav
+RECORD:Memmingen:EDJA.wav
+RECORD:Met Report Time:Met_Report_Time.wav
+RECORD:Meters:Meters.wav
+RECORD:Miles:Miles.wav
+RECORD:Millimeter:Millimeter.wav
+RECORD:Millimeters:Millimeters.wav
+RECORD:Minus:Minus.wav
+RECORD:Mist:Mist.wav
+RECORD:Moderate:Moderate.wav
+RECORD:Moenchengladbach:EDLN.wav
+RECORD:More Than:More_Than.wav
+RECORD:More Than 50 Percent:More_Than_50_Percent.wav
+RECORD:Muenchen:EDDM.wav
+RECORD:Muenchen Radar:EDMM.wav
+RECORD:Muenster:EDDG.wav
+RECORD:Munich:EDDM_ENG.wav
+RECORD:N:N.wav
+RECORD:NDB:NDB.wav
+RECORD:Negative:Negative.wav
+RECORD:Neutral:Neutral.wav
+RECORD:Niederrhein:EDLV.wav
+RECORD:No Cloud Base Available:No_Cloud_Base_Available.wav
+RECORD:No Cloud Detected:No_Cloud_Detected.wav
+RECORD:No Clouds Detected:No_Clouds_Detected.wav
+RECORD:No Directional Variation:No_Directional_Variation.wav
+RECORD:No Significant Change:No_Significant_Change.wav
+RECORD:No Significant Clouds:No_Significant_Clouds.wav
+RECORD:No Significant Weather:No_Significant_Weather.wav
+RECORD:North:North.wav
+RECORD:Northeast:Northeast.wav
+RECORD:Northwest:Northwest.wav
+RECORD:Nosig:Nosig.wav
+RECORD:Nuernberg:EDDN.wav
+RECORD:O:O.wav
+RECORD:On Frequency:On_Frequency.wav
+RECORD:On Initial Call All Flights To Leipzig Ha-lleh Must Report Scenery In Use!:EDDP_Report_Scenery.wav
+RECORD:On Request:On_Request.wav
+RECORD:Or:Or.wav
+RECORD:Or More:Or_More.wav
+RECORD:Out:Out.wav
+RECORD:Overcast:Overcast.wav
+RECORD:P:P.wav
+RECORD:Paderborn:EDLP.wav
+RECORD:Partial Fog:Partial_Fog.wav
+RECORD:Patches Of Fog:Patches_Of_Fog.wav
+RECORD:Plus:Plus.wav
+RECORD:Poor:Poor.wav
+RECORD:Present Weather:Present_Weather.wav
+RECORD:Previous Surface Condition:Previous_Surface_Condition.wav
+RECORD:Q:Q.wav
+RECORD:QFE:QFE.wav
+RECORD:QNH:QNH.wav
+RECORD:R:R.wav
+RECORD:Rain:Rain.wav
+RECORD:Recent:Recent.wav
+RECORD:Rhein Radar:EDUU.wav
+RECORD:Right:Right.wav
+RECORD:Rime Or Frost:Rime_Or_Frost.wav
+RECORD:Runway:Runway.wav
+RECORD:Runway Visual Range:Runway_Visual_Range.wav
+RECORD:Runways:Runways.wav
+RECORD:Runways In Use:Runways_In_Use.wav
+RECORD:RVR:RVR.wav
+RECORD:S:S.wav
+RECORD:Saarbruecken:EDDR.wav
+RECORD:Sand:Sand.wav
+RECORD:Sandstorm:Sandstorm.wav
+RECORD:Scattered:Scattered.wav
+RECORD:Schwaebisch-Hall:EDTY.wav
+RECORD:Sea State:Sea_State.wav
+RECORD:Sea Surface Temperature:Sea_Surface_Temperature.wav
+RECORD:Shallow Fog:Shallow_Fog.wav
+RECORD:Shower:Shower.wav
+RECORD:Showers:Showers.wav
+RECORD:Showers Of Hail:Showers_Of_Hail.wav
+RECORD:Showers Of Rain:Showers_Of_Rain.wav
+RECORD:Showers Of Small Hail:Showers_Of_Small_Hail.wav
+RECORD:Showers Of Snow:Showers_Of_Snow.wav
+RECORD:Siegerland:EDGS.wav
+RECORD:Sky Conditions Clear:Sky_Conditions_Clear.wav
+RECORD:Slush:Slush.wav
+RECORD:Small Hail:Small_Hail.wav
+RECORD:Smoke:Smoke.wav
+RECORD:Snow:Snow.wav
+RECORD:Snow Grains:Snow_Grains.wav
+RECORD:South:South.wav
+RECORD:Southeast:Southeast.wav
+RECORD:Southwest:Southwest.wav
+RECORD:Squalls:Squalls.wav
+RECORD:Stand By When Check In Frequency:EDDB_ILA.wav
+RECORD:Stratocumulus:Stratocumulus.wav
+RECORD:Stratus:Stratus.wav
+RECORD:Straubing:EDMS.wav
+RECORD:Stuttgart:EDDS.wav
+RECORD:Surface:Surface.wav
+RECORD:Surface Condition:Surface_Condition.wav
+RECORD:Surface On Compacted Or Rolled Snow:Surface_On_Compacted_Or_Rolled_Snow.wav
+RECORD:Surface On Dry Snow:Surface_On_Dry_Snow.wav
+RECORD:Surface On Frozen Ruts Or Ridges:Surface_On_Frozen_Ruts_Or_Ridges.wav
+RECORD:Surface On Ice:Surface_On_Ice.wav
+RECORD:Surface On Rime Or Frost:Surface_On_Rime_Or_Frost.wav
+RECORD:Surface On Slush:Surface_On_Slush.wav
+RECORD:Surface On Wet Snow:Surface_On_Wet_Snow.wav
+RECORD:Sylt:EDXW.wav
+RECORD:T:T.wav
+RECORD:Tailwind Component Runway 18 More Than 10 Knots Pilots Unable To Accept Shall Advise ATC Upon Start-Up Request:EDDF_Tailwind18.wav
+RECORD:Take Off:Take_Off.wav
+RECORD:Taxiway Papa Echo And Bridge Closed Due To Works In Progress Taxiway Tango Romeo Closed:EDDT_Taxiway_PE_Closed_WIP.wav
+RECORD:Tempelhof:EDDI.wav
+RECORD:Temperature:Temperature.wav
+RECORD:Temporary:Temporary.wav
+RECORD:The Aerodrome Is Closed Due To Contamination Of The Runways:Snoclo.wav
+RECORD:This Is:This_Is.wav
+RECORD:Thousand:Thousand.wav
+RECORD:Thunderstorm:Thunderstorm.wav
+RECORD:Thunderstorm With Hail:Thunderstorm_With_Hail.wav
+RECORD:Thunderstorm With Ice Pellets:Thunderstorm_With_Ice_Pellets.wav
+RECORD:Thunderstorm With Rain:Thunderstorm_With_Rain.wav
+RECORD:Thunderstorm With Small Hail:Thunderstorm_With_Small_Hail.wav
+RECORD:Thunderstorm With Snow:Thunderstorm_With_Snow.wav
+RECORD:Thunderstorm With Snow Grains:Thunderstorm_With_Snow_Grains.wav
+RECORD:To:To.wav
+RECORD:To Less Than:To_Less_Than.wav
+RECORD:To More Than:To_More_Than.wav
+RECORD:TCU:Towering_Cumulus.wav
+RECORD:Towering Cumulus:Towering_Cumulus.wav
+RECORD:Transition Level:Transition_Level.wav
+RECORD:Trend:Trend.wav
+RECORD:TRL:Transition_Level.wav
+RECORD:U:U.wav
+RECORD:Unavailable:Unavailable.wav
+RECORD:Unicom:Unicom.wav
+RECORD:Unknown Precipitation:Unknown_Precipitation.wav
+RECORD:Unmeasurable:Unmeasurable.wav
+RECORD:Upgrading:Upgrading.wav
+RECORD:Use Caution After Landing Short Distance Between Runways Expect To Stop Before Parallel Runway:EDDT_Use_Caution.wav
+RECORD:V:V.wav
+RECORD:Variable:Variable.wav
+RECORD:Variable Between:Variable_Between.wav
+RECORD:Vertical Visibility:Vertical_Visibility.wav
+RECORD:Vicinity:Vicinity.wav
+RECORD:Visibility:Visibility.wav
+RECORD:Visual:Visual.wav
+RECORD:Volcanic Ash:Volcanic_Ash.wav
+RECORD:VOR:VOR.wav
+RECORD:W:W.wav
+RECORD:West:West.wav
+RECORD:Wet:Wet.wav
+RECORD:Wet Snow:Wet_Snow.wav
+RECORD:Widespread Dust:Widespread_Dust.wav
+RECORD:Wind:Wind.wav
+RECORD:Wind Calm:Wind_Calm.wav
+RECORD:Wind Variable:Wind_Variable.wav
+RECORD:Windshear:Windshear.wav
+RECORD:Windshear All Runways:Windshear_All_Runways.wav
+RECORD:X:X.wav
+RECORD:Y:Y.wav
+RECORD:Z:Z.wav

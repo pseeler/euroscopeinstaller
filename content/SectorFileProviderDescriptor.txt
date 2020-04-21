@@ -1,0 +1,390 @@
+NAME:EuroScope main sector file provider
+URL:http://www.euroscope.hu/sectorfile/euroscope_sector_providers.txt
+LOCALFILE:./euroscope_sector_providers.txt
+LASTDOWNLOAD:202004041001
+NEXTDOWNLOAD:202004061001
+AUTODOWNLOAD:1
+NAME:VATSIM Bulgarian Sector File Provider
+URL:http://vaccbul.avsim-bg.org/ES/VACCBUL_sector_provider.txt
+LOCALFILE:%INSTALLATION_DIR%\VACCBUL_sector_provider.txt
+AUTODOWNLOAD:0
+NAME:EuroCenter vACC Sector File Provider
+URL:http://www.euc-vacc.org/es/EUROCEN_sector_file.txt
+LOCALFILE:%INSTALLATION_DIR%\EUROCEN_sector_file.txt
+AUTODOWNLOAD:0
+NAME:LHCC - VACCHUN Sector Files
+URL:http://www.vacchun.hu/es/vacchun_sector_files.txt
+LOCALFILE:%INSTALLATION_DIR%\vacchun_sector_files.txt
+AUTODOWNLOAD:0
+NAME:Shanwick & Gander Oceanic
+URL:http://idisk.mac.com/boerner-Public/EuroScope/EGGX-CZQX_sector_file.txt
+LOCALFILE:%INSTALLATION_DIR%\EGGX-CZQX_sector_file.txt
+AUTODOWNLOAD:0
+NAME:VATSIM Germany Sector File Provider
+URL:http://nav.vatsim-germany.org/files/VATGER_sector_provider.txt
+LOCALFILE:%INSTALLATION_DIR%\VATGER_sector_provider.txt
+AUTODOWNLOAD:0
+NAME:VATSIM CZQM Sector File Provider
+URL:http://czqm.ca/files/VATCAN_CZQM_Sector_Provider.txt
+LOCALFILE:%INSTALLATION_DIR%\VATCAN_CZQM_Sector_Provider.txt
+AUTODOWNLOAD:0
+NAME:Central & North Africa sector files
+URL:http://vatcaf.flyvatsimafrica.org/euroscopeupdate/VATCAF_Sector_Provider.txt
+LOCALFILE:%INSTALLATION_DIR%\VATCAF_Sector_Provider.txt
+AUTODOWNLOAD:0
+NAME:vACC Italy Sector Files
+URL:http://www.vatita.net/es/vatita_sector_files.txt
+LOCALFILE:%INSTALLATION_DIR%\vatita_sector_files.txt
+AUTODOWNLOAD:0
+NAME:LRBB - ROvACC Sector Files
+URL:http://rovacc.ro/downloads/ROvACC_sector_stuff.txt
+LOCALFILE:%INSTALLATION_DIR%\ROvACC_sector_stuff.txt
+AUTODOWNLOAD:0
+NAME:Ukraine vACC Sector Files
+URL:http://www.vacc-ua.aero/information/controllers/sectors/VACCUKR_sectors.txt
+LOCALFILE:%INSTALLATION_DIR%\VACCUKR_sectors.txt
+AUTODOWNLOAD:0
+NAME:vZAU Chicago - Beta
+URL:http://zausector.webbhq.net/vZAU_Sector_Files.txt
+LOCALFILE:%INSTALLATION_DIR%\vZAU_Sector_Files.txt
+AUTODOWNLOAD:0
+NAME:Alaska ARTCC Control File
+URL:http://vzanartcc.net/downloads/euroscope/vZAN_sectorfiles.txt
+LOCALFILE:%INSTALLATION_DIR%\vZAN_sectorfiles.txt
+AUTODOWNLOAD:0
+NAME:VATSIM-UK Euroscope Sector File Provider
+URL:http://www.vatsim-uk.co.uk/files/sector/esad/VATUK_Euroscope_files.txt
+LOCALFILE:%INSTALLATION_DIR%\VATUK_Euroscope_files.txt
+AUTODOWNLOAD:0
+NAME:VATSIM UAE Sector File Provider
+URL:http://vatme.net/FILES/VATUAE/sector/VATUAE_ES_sector_files.txt
+LOCALFILE:%INSTALLATION_DIR%\VATUAE_ES_sector_files.txt
+AUTODOWNLOAD:0
+NAME:Latvia vACC Sector File Provider
+URL:http://www.lv-vacc.org/es/EVRR_FIR_sector_file.txt
+LOCALFILE:%INSTALLATION_DIR%\EVRR_FIR_sector_file.txt
+AUTODOWNLOAD:0
+NAME:TRvACC.Org Turkish Virtual Area Control Center
+URL:http://trvacc.org/es/TRvACC_es_provider.txt
+LOCALFILE:%INSTALLATION_DIR%\TRvACC_es_provider.txt
+AUTODOWNLOAD:0
+NAME:Vatsim-Scandinavia - Denmark
+URL:http://www.vatsim-scandinavia.org/euroscope/sectorfiles/denmark/EKDK_sector_file.txt
+LOCALFILE:%INSTALLATION_DIR%\EKDK_sector_file.txt
+AUTODOWNLOAD:0
+NAME:Vatsim-Scandinavia - Norway
+URL:http://www.vatsim-scandinavia.org/euroscope/sectorfiles/norway/ENOR_sector_files.txt
+LOCALFILE:%INSTALLATION_DIR%\ENOR_sector_files.txt
+AUTODOWNLOAD:0
+NAME:Vatsim-Scandinavia - Sweden
+URL:http://www.vatsim-scandinavia.org/euroscope/sectorfiles/sweden/ESAA_sector_file.txt
+LOCALFILE:%INSTALLATION_DIR%\ESAA_sector_file.txt
+AUTODOWNLOAD:0
+NAME:VATSIM MIDDLE EAST Euroscope Sector File Provider
+URL:http://vatme.net/files/Sectors/VATME_sector_Provider.txt
+LOCALFILE:%INSTALLATION_DIR%\VATME_sector_Provider.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG Sector File Provider
+URL:http://files.aero-nav.com/AeroNav_Sector_Provider.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_sector_provider.txt
+LASTDOWNLOAD:202004041001
+NEXTDOWNLOAD:202004042201
+AUTODOWNLOAD:1
+NAME:LECB-LECM-GCCC sectorfiles - Vatsim Spain
+URL:http://www.vatspa.es/sectorfiles/VATSPA FIR sectorfiles.txt
+LOCALFILE:%INSTALLATION_DIR%\VATSPA FIR sectorfiles.txt
+AUTODOWNLOAD:0
+NAME:Cuba vACC Sector Files Provider
+URL:http://havana.vatcar.org/es/mufh_sector_files.txt
+LOCALFILE:%INSTALLATION_DIR%\mufh_sector_files.txt
+AUTODOWNLOAD:0
+NAME:VATNZ Sector File Provider
+URL:http://www.vatnz.net/airspace/sector_files/euroscope/VATNZ_SectorFileProvider.txt
+LOCALFILE:%INSTALLATION_DIR%\VATNZ_SectorFileProvider.txt
+AUTODOWNLOAD:0
+NAME:Polish vACC Sector Provider
+URL:http://pl-vacc.org.pl/files/soft_atc/ES_sectorfiles/sectors.txt
+LOCALFILE:%INSTALLATION_DIR%\sectors.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG ADRIA VATSIM Adria
+URL:http://files.aero-nav.com/AeroNav_ADRIA_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_ADRIA_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG AFRX Africa UIR/FSS Control Stations
+URL:http://files.aero-nav.com/AeroNav_AFRX_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_AFRX_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG CZEG Edmonton FIR
+URL:http://files.aero-nav.com/AeroNav_CZEG_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_CZEG_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG CZQQ Moncton Gander FIR
+URL:http://files.aero-nav.com/AeroNav_CZQQ_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_CZQQ_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG CZQXO Gander Oceanic
+URL:http://files.aero-nav.com/AeroNav_CZQXO_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_CZQXO_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG CZVR Vancouver FIR
+URL:http://files.aero-nav.com/AeroNav_CZVR_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_CZVR_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG CZYZ Toronto FIR
+URL:http://files.aero-nav.com/AeroNav_CZYZ_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_CZYZ_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG DAAA Alger
+URL:http://files.aero-nav.com/AeroNav_DAAA_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_DAAA_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG DGAC Accra
+URL:http://files.aero-nav.com/AeroNav_DGAC_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_DGAC_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG DNKK Kano
+URL:http://files.aero-nav.com/AeroNav_DNKK_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_DNKK_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG DTTC Tunis
+URL:http://files.aero-nav.com/AeroNav_DTTC_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_DTTC_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG EBBU Belux vACC
+URL:http://files.aero-nav.com/AeroNav_EBBU_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_EBBU_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG EDXX VATSIM Germany
+URL:http://files.aero-nav.com/AeroNav_EDXX_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_EDXX_by_Aerosoft_NavDataPro.txt
+LASTDOWNLOAD:202004041001
+NEXTDOWNLOAD:202004042201
+AUTODOWNLOAD:1
+NAME:AeroNav GNG EETT VACC Estonia
+URL:http://files.aero-nav.com/AeroNav_EETT_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_EETT_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG EGGX Shanwick Oceanic
+URL:http://files.aero-nav.com/AeroNav_EGGX_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_EGGX_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG EURO EuroCenter vACC
+URL:http://files.aero-nav.com/AeroNav_EURO_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_EURO_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG EVRR vACC Latvia
+URL:http://files.aero-nav.com/AeroNav_EVRR_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_EVRR_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG EXCXO Shanwick & Gander Oceanic
+URL:http://files.aero-nav.com/AeroNav_EXCXO_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_EXCXO_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG FAXX VATSIM South Africa
+URL:http://files.aero-nav.com/AeroNav_FAXX_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_FAXX_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG FBGR Gaborone
+URL:http://files.aero-nav.com/AeroNav_FBGR_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_FBGR_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG FIMM Mauritius
+URL:http://files.aero-nav.com/AeroNav_FIMM_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_FIMM_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG FMMM Antananarivo
+URL:http://files.aero-nav.com/AeroNav_FMMM_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_FMMM_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG FNAN Luanda
+URL:http://files.aero-nav.com/AeroNav_FNAN_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_FNAN_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG FQBE BEIRA
+URL:http://files.aero-nav.com/AeroNav_FQBE_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_FQBE_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG FSSS Seychelles
+URL:http://files.aero-nav.com/AeroNav_FSSS_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_FSSS_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG FVHF Harare
+URL:http://files.aero-nav.com/AeroNav_FVHF_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_FVHF_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG FYWH Windhoek
+URL:http://files.aero-nav.com/AeroNav_FYWH_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_FYWH_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG GMMM VATSIM Morocco
+URL:http://files.aero-nav.com/AeroNav_GMMM_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_GMMM_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG GOOO Dakar
+URL:http://files.aero-nav.com/AeroNav_GOOO_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_GOOO_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG GULF Gulf FSS Control Stations
+URL:http://files.aero-nav.com/AeroNav_GULF_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_GULF_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG GVSC Sal Oceanic
+URL:http://files.aero-nav.com/AeroNav_GVSC_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_GVSC_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG HCSM Mogadishu
+URL:http://files.aero-nav.com/AeroNav_HCSM_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_HCSM_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG HECC Egypt vACC
+URL:http://files.aero-nav.com/AeroNav_HECC_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_HECC_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG HKNA Nairobi
+URL:http://files.aero-nav.com/AeroNav_HKNA_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_HKNA_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG HTDC Dar es Salaam
+URL:http://files.aero-nav.com/AeroNav_HTDC_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_HTDC_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG HUEC Entebbe
+URL:http://files.aero-nav.com/AeroNav_HUEC_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_HUEC_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG LCCC vACC Cyprus
+URL:http://files.aero-nav.com/AeroNav_LCCC_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_LCCC_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG LEXX vACC Spain
+URL:http://files.aero-nav.com/AeroNav_LEXX_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_LEXX_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG LFFF Paris
+URL:http://files.aero-nav.com/AeroNav_LFFF_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_LFFF_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG LFXX VAT France
+URL:http://files.aero-nav.com/AeroNav_LFXX_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_LFXX_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG LGGG Hellenic vACC
+URL:http://files.aero-nav.com/AeroNav_LGGG_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_LGGG_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG LHCC vACC Hungary
+URL:http://files.aero-nav.com/AeroNav_LHCC_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_LHCC_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG LIXX vACC Italy
+URL:http://files.aero-nav.com/AeroNav_LIXX_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_LIXX_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG LLLL VATSIM ISRAEL Division
+URL:http://files.aero-nav.com/AeroNav_LLLL_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_LLLL_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG LOVV Vacc Austria
+URL:http://files.aero-nav.com/AeroNav_LOVV_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_LOVV_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG LPPC Portugal vACC
+URL:http://files.aero-nav.com/AeroNav_LPPC_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_LPPC_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG LPPO Portugal VACC
+URL:http://files.aero-nav.com/AeroNav_LPPO_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_LPPO_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG LRBB ROvACC
+URL:http://files.aero-nav.com/AeroNav_LRBB_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_LRBB_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG LSAS vACC Switzerland
+URL:http://files.aero-nav.com/AeroNav_LSAS_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_LSAS_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG LTXX Turkish vACC
+URL:http://files.aero-nav.com/AeroNav_LTXX_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_LTXX_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG LZBB Vacc Slovakia
+URL:http://files.aero-nav.com/AeroNav_LZBB_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_LZBB_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG MDCS Santo Domingo FIR
+URL:http://files.aero-nav.com/AeroNav_MDCS_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_MDCS_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG OBBB Bahrain vACC
+URL:http://files.aero-nav.com/AeroNav_OBBB_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_OBBB_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG OEJD vACC Saudi Arabia
+URL:http://files.aero-nav.com/AeroNav_OEJD_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_OEJD_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG OIIX vACC Iran
+URL:http://files.aero-nav.com/AeroNav_OIIX_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_OIIX_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG OJAC Jordan vACC
+URL:http://files.aero-nav.com/AeroNav_OJAC_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_OJAC_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG OKAC Kuwait vACC
+URL:http://files.aero-nav.com/AeroNav_OKAC_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_OKAC_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG OMAE UAE vACC
+URL:http://files.aero-nav.com/AeroNav_OMAE_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_OMAE_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG OOMM Oman vACC
+URL:http://files.aero-nav.com/AeroNav_OOMM_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_OOMM_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG OPXX vACC Pakistan
+URL:http://files.aero-nav.com/AeroNav_OPXX_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_OPXX_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG ORBB Iraq vACC
+URL:http://files.aero-nav.com/AeroNav_ORBB_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_ORBB_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG OSTT Syrian vACC
+URL:http://files.aero-nav.com/AeroNav_OSTT_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_OSTT_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG OYSC Yemen vACC
+URL:http://files.aero-nav.com/AeroNav_OYSC_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_OYSC_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG PHZH Honolulu Control Facility
+URL:http://files.aero-nav.com/AeroNav_PHZH_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_PHZH_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG SCA VATSIM Scandinavia
+URL:http://files.aero-nav.com/AeroNav_SCA_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_SCA_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG SPIM Lima
+URL:http://files.aero-nav.com/AeroNav_SPIM_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_SPIM_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG UGGG vACC Georgia
+URL:http://files.aero-nav.com/AeroNav_UGGG_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_UGGG_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG VNSM VATSIM Nepal vACC
+URL:http://files.aero-nav.com/AeroNav_VNSM_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_VNSM_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+NAME:AeroNav GNG WXXX vACC Indonesia
+URL:http://files.aero-nav.com/AeroNav_WXXX_by_Aerosoft_NavDataPro.txt
+LOCALFILE:%INSTALLATION_DIR%\AeroNav_WXXX_by_Aerosoft_NavDataPro.txt
+AUTODOWNLOAD:0
+SECTOR_AUTODOWNLOAD:1
+SECTOR_CONFIRMED:0
+SECTOR_PROVIDER:AeroNav GNG EDXX VATSIM Germany
+SECTOR_NAME:EDWW AIRAC
