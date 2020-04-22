@@ -1,7 +1,7 @@
 # Installer for VATSIM - RG Berlin
 
 This repository contains an initial installer to set up an EuroScope & AudioForVATSIM installation for
-trainees of the RG Berlin. It contains the newest releases of EuroScope, AIRAC, ModeS and VCH.
+trainees of the RG Berlin. It contains the newest releases of EuroScope, AIRAC, ModeS, GRplugin and VCH.
 
 ## Required tools to create the Installer
 
@@ -25,3 +25,11 @@ The final stage configures some configuration files with the required informatio
  * SectorFileProviderDescriptor.txt - Replace the sector-file-marker by the downloaded AIRAC file
  * settings/TWR.asr - Replace the directory-marker by the installation directory
  * settings/TWR.asr - Replace the sector-file-marker by the downloaded AIRAC file
+
+## Remarks after installation
+
+### AudioForVATSIM
+
+If AudioForVATSIM suggest to perform an update, do so.
+But you need to define %INSTALL_DIR%/AudioForVATSIM as the installation directory.
+This is needed that the installer overwrites the current version of the audio module.
