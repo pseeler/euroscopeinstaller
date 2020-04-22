@@ -3,7 +3,7 @@
 
 #define InstallerName "VATGER RG Berlin - ATC"
 #define InstallerMajorVersion "1"
-#define InstallerMinorVersion "0"
+#define InstallerMinorVersion "1"
 #define InstallerBuildVersion "0"
 #define InstallerPublisher "Sven Czarnian"
 #define InstallerURL "https://vatsim-germany.org/"
@@ -12,7 +12,7 @@
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{E616C5AD-92C6-42CA-A8D5-B9B83384E28E}}
+AppId={{770DFA8A-B533-4E97-BC20-34D711859CC1}}
 AppName={#InstallerName}
 AppVersion={#InstallerMajorVersion}.{#InstallerMinorVersion}.{#InstallerBuildVersion}
 AppVerName={#InstallerName} {#InstallerMajorVersion}.{#InstallerMinorVersion}.{#InstallerBuildVersion}
@@ -46,10 +46,14 @@ Source: "{tmp}\VCH.dll"; DestDir: "{app}"; Flags: external;
 Source: "{tmp}\Euroscope\*"; DestDir: "{app}"; Flags: external recursesubdirs createallsubdirs;
 Source: "{tmp}\AFV\*"; DestDir: "{app}\AudioForVATSIM"; Flags: external recursesubdirs createallsubdirs;
 Source: "{tmp}\AIRAC\*"; DestDir: "{app}"; Flags: external recursesubdirs createallsubdirs;
+Source: "{tmp}\GRplugin\GRplugin.dll"; DestDir: "{app}"; Flags: external;
+Source: "{tmp}\GRplugin\GRpluginAircraftInfo.txt"; DestDir: "{app}"; Flags: external;
+Source: "{tmp}\GRplugin\GRpluginCargoCallsigns.txt"; DestDir: "{app}"; Flags: external;
 Source: "content\ATCStartup.bat"; DestDir: "{app}"; Flags: ignoreversion;
 Source: "content\EDDT_Field.prf"; DestDir: "{app}"; Flags: ignoreversion;
 Source: "content\SectorFileProviderDescriptor.txt"; DestDir: "{app}"; Flags: ignoreversion;
 Source: "content\logo.ico"; DestDir: "{app}"; Flags: ignoreversion;
+Source: "content\GRPluginStands.txt"; DestDir: "{app}"; Flags: ignoreversion;
 Source: "content\settings\alias.txt"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
 Source: "content\settings\ICAO_Aircraft.txt"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
 Source: "content\settings\ICAO_Airlines.txt"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
@@ -81,6 +85,7 @@ begin
   // add the required (installable) plugins for Euroscope and VATSIM to the download list
   idpAddFileSize('https://audio.vatsim.net/downloads/standalone', ExpandConstant('{tmp}\AFV.msi'), 16064512);
   idpAddFileSize('https://audio.vatsim.net/downloads/plugin', ExpandConstant('{tmp}\AfvEuroScopeBridge.dll'), 65536);
+  idpAddFileSize('http://www.saunalahti.fi/~juholoc/EuroScope/plugins/GRplugin.zip', ExpandConstant('{tmp}\GRplugin.zip'), 3760128);
   DownloadTool(EuroScope, ExpandConstant('{tmp}\EuroScope.zip'));
   DownloadTool(ModeS, ExpandConstant('{tmp}\ModeS.dll'));
   DownloadTool(VCH, ExpandConstant('{tmp}\VCH.dll'));
@@ -102,6 +107,7 @@ begin
   Unzip(ExpandConstant('{tmp}\EuroScope.zip'), ExpandConstant('{tmp}\Euroscope'), false);
   Unzip(ExpandConstant('{tmp}\AFV.msi'), ExpandConstant('{tmp}\AFV'), true);
   Unzip(ExpandConstant('{tmp}\EDWW_AIRAC.7z'), ExpandConstant('{tmp}\AIRAC'), true);
+  Unzip(ExpandConstant('{tmp}\GRplugin.zip'), ExpandConstant('{tmp}\GRplugin'), false);
 
   Result := '';
 end;

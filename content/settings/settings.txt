@@ -1739,8 +1739,8 @@ m_Column:FL:3:1:22:11:11:1::::1
 END
 DEP
 m_Visible:1
-m_X:2
-m_Y:730
+m_X:1
+m_Y:698
 m_LineNumber:0
 m_Resizable:1
 m_OrderingColumn:2
@@ -1748,6 +1748,7 @@ m_HeaderOnly:0
 m_Column:DSQ:5:1:57:0:0:1::::1
 m_Column:AC:7:1:9:7:0:1::::1999222899
 m_Column:ADEP:4:1:61:0:0:1::::1
+m_Column:STAND:7:1:1:0:0:1:Ground Radar plugin:::1962850419
 m_Column:C/S:3:1:40:0:0:1::::1972418687
 m_Column:ATYP:4:1:16:0:0:1::::1
 m_Column:WTC:5:1:10:0:29:1::::1
@@ -1765,15 +1766,16 @@ m_Column:REQ:3:1:444:544:0:1:VCH:VCH::1999222899
 END
 ARR
 m_Visible:1
-m_X:1693
-m_Y:674
+m_X:1599
+m_Y:670
 m_LineNumber:0
 m_Resizable:1
-m_OrderingColumn:3
+m_OrderingColumn:4
 m_HeaderOnly:0
 m_Column:C/S:7:0:9:0:0:1::::1849769038
 m_Column:ETA:7:0:54:0:0:1::::1999222899
 m_Column:TXT:6:1:19:29:0:1::::1849769038
+m_Column:STAND:7:1:2:0:0:1:Ground Radar plugin:::1962850419
 END
 FP
 m_Visible:0
@@ -1808,8 +1810,8 @@ Ts3Port:9988
 END
 PILOTING
 m_Visible:0
-m_X:0
-m_Y:773
+m_X:29
+m_Y:622
 m_LineNumber:6
 m_Resizable:0
 m_OrderingColumn:1

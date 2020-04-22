@@ -47,3 +47,5 @@ Plugins	Plugin2Display0	ModeS Function Relay (no display)
 Plugins	Plugin2Display1	Standard ES radar screen
 Settings	AselKey	5111808
 Settings	FreqKey	3604480
+Plugins	Plugin3	\GRplugin.dll
+Plugins	Plugin3Display0	Ground Radar display
