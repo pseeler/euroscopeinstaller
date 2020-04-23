@@ -6,9 +6,9 @@
 .clf climb FL$1.
 .dfl descend FL$1.
 .clr information $atiscode correct. Startup approved, cleared $arr via $sid departure, climb $1000ft, flight planned route, squawk $squawk.
-.clrc check information $atiscode. Startup approved, cleared to $arr via $sid departure, climb $1000ft, flight planned route, squawk $squawk.
-.clrv information $atiscode correct. Startup approved, cleared to $arr via vectored departure, climb $1000ft, runway heading, flight planned route, squawk $squawk.
-.clrcv check information $atiscode. Startup approved, cleared to $arr via vectored departure, climb $1000ft, runway heading, flight planned route, squawk $squawk.
+.clrc check information $atiscode. Startup approved, cleared $arr via $sid departure, climb $1000ft, flight planned route, squawk $squawk.
+.clrv information $atiscode correct. Startup approved, cleared $arr via vectored departure, climb $1000ft, runway heading, flight planned route, squawk $squawk.
+.clrcv check information $atiscode. Startup approved, cleared $arr via vectored departure, climb $1000ft, runway heading, flight planned route, squawk $squawk.
 .pn pushback approved, facing north.
 .pe pushback approved, facing east.
 .ps pushback approved, facing south.
