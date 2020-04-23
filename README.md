@@ -28,6 +28,11 @@ The final stage configures some configuration files with the required informatio
 
 ## Remarks after installation
 
+### Ground Radar
+
+The ground radar plugin is initialy activated and uses [Stands](https://de.wiki.vatsim-germany.org/Tegel_Ground#Ziviler_Apron)
+to assign stands to incoming traffic.
+
 ### AudioForVATSIM
 
 If AudioForVATSIM suggest to perform an update, do so.
