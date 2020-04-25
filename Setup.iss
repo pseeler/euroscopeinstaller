@@ -155,8 +155,12 @@ begin
   FileReplaceString('{app}\EDBBStarterKit.prf', '%INSTALLATION_DIR%', ExpandConstant('{app}'));
   FileReplaceString('{app}\EDBBStarterKit.prf', '%SECTOR_FILENAME%', SctFileName);
   FileReplaceString('{app}\SectorFileProviderDescriptor.txt', '%INSTALLATION_DIR%', ExpandConstant('{app}'));
-  FileReplaceString('{app}\settings\TWR.asr', '%INSTALLATION_DIR%', ExpandConstant('{app}'));
-  FileReplaceString('{app}\settings\TWR.asr', '%SECTOR_FILENAME%', SctFileName);
+  FileReplaceString('{app}\EDBB\asr\APP.asr', '%INSTALLATION_DIR%', ExpandConstant('{app}'));
+  FileReplaceString('{app}\EDBB\asr\APP.asr', '%SECTOR_FILENAME%', SctFileName);
+  FileReplaceString('{app}\EDBB\asr\CTR.asr', '%INSTALLATION_DIR%', ExpandConstant('{app}'));
+  FileReplaceString('{app}\EDBB\asr\CTR.asr', '%SECTOR_FILENAME%', SctFileName);
+  FileReplaceString('{app}\EDBB\asr\TWR.asr', '%INSTALLATION_DIR%', ExpandConstant('{app}'));
+  FileReplaceString('{app}\EDBB\asr\TWR.asr', '%SECTOR_FILENAME%', SctFileName);
 end;
 
 procedure CurStepChanged(CurStep: TSetupStep);

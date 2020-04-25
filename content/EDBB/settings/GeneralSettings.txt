@@ -26,7 +26,7 @@ m_STCA_HighShow:0
 m_STCA_HighVertical:900
 m_STCA_HighHorizontal:8.0
 m_STCA_HighBottom:10000
-m_ExtendedCenterlinActiveArr:0
+m_ExtendedCenterlinActiveArr:1
 m_UseHoveringTagForKeys:1
 m_AutoMessageForTextAircraft:1
 m_ShowRouteWhenAccepting:1

@@ -1,4 +1,4 @@
-RecentFiles	Recent1	\EDBB\settings\TWR.asr
+RecentFiles	Recent1	\EDBB\asr\TWR.asr
 Settings	sector	%INSTALLATION_DIR%\%SECTOR_FILENAME%
 Settings	SettingsfileSYMBOLOGY	\EDBB\settings\Symbology.txt
 Settings	SettingsfileVOICE	\EDBB\settings\VoiceChannels.txt
