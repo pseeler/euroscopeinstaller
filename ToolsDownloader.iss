@@ -18,12 +18,13 @@ begin
   Result := false;
 
   // download the release-overview-page of euroscope
-  idpDownloadFile('https://www.euroscope.hu/wp/category/beta-release/', ExpandConstant('{tmp}\EuroScope.htm'));
-  EuroScopeHTML := FindURL(ExpandConstant('{tmp}\EuroScope.htm'), 'rel="bookmark"', '<a href=');
-  if 0 = Length(EuroScopeHTML) then
-  begin
-    Exit;
-  end;
+  // idpDownloadFile('https://www.euroscope.hu/wp/category/beta-release/', ExpandConstant('{tmp}\EuroScope.htm'));
+  // EuroScopeHTML := FindURL(ExpandConstant('{tmp}\EuroScope.htm'), 'rel="bookmark"', '<a href=');
+  // if 0 = Length(EuroScopeHTML) then
+  // begin
+  //   Exit;
+  // end;
+  EuroScopeHTML := 'https://www.euroscope.hu/wp/2019/10/05/v3-2-1-23/';
 
   // download the release-page of the current euroscope release
   idpDownloadFile(EuroScopeHTML, ExpandConstant('{tmp}\EuroScope.htm'));
