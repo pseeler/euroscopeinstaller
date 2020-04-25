@@ -43,6 +43,7 @@ Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescrip
 Source: "{tmp}\AfvEuroScopeBridge.dll"; DestDir: "{app}"; Flags: external;
 Source: "{tmp}\ModeS.dll"; DestDir: "{app}"; Flags: external;
 Source: "{tmp}\VCH.dll"; DestDir: "{app}"; Flags: external;
+Source: "{tmp}\RDFPlugin.dll"; DestDir: "{app}"; Flags: external;
 Source: "{tmp}\Euroscope\*"; DestDir: "{app}"; Flags: external recursesubdirs createallsubdirs;
 Source: "{tmp}\AFV\*"; DestDir: "{app}\AudioForVATSIM"; Flags: external recursesubdirs createallsubdirs;
 Source: "{tmp}\AIRAC\*"; DestDir: "{app}"; Flags: external recursesubdirs createallsubdirs;
@@ -50,16 +51,17 @@ Source: "{tmp}\AIRAC\*"; DestDir: "{app}"; Flags: external recursesubdirs create
 ; Source: "{tmp}\GRplugin\GRpluginAircraftInfo.txt"; DestDir: "{app}"; Flags: external;
 ; Source: "{tmp}\GRplugin\GRpluginCargoCallsigns.txt"; DestDir: "{app}"; Flags: external;
 Source: "content\ATCStartup.bat"; DestDir: "{app}"; Flags: ignoreversion;
-Source: "content\EDDT_Field.prf"; DestDir: "{app}"; Flags: ignoreversion;
+Source: "content\EDBBStarterKit.prf"; DestDir: "{app}"; Flags: ignoreversion;
 Source: "content\SectorFileProviderDescriptor.txt"; DestDir: "{app}"; Flags: ignoreversion;
 Source: "content\logo.ico"; DestDir: "{app}"; Flags: ignoreversion;
 Source: "content\GRPluginStands.txt"; DestDir: "{app}"; Flags: ignoreversion;
 Source: "content\settings\alias.txt"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
-Source: "content\settings\ICAO_Aircraft.txt"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
-Source: "content\settings\ICAO_Airlines.txt"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
-Source: "content\settings\ICAO_Airports.txt"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
-Source: "content\settings\settings.txt"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
-Source: "content\settings\TWR.asr"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
+; Source: "content\settings\ICAO_Aircraft.txt"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
+; Source: "content\settings\ICAO_Airlines.txt"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
+; Source: "content\settings\ICAO_Airports.txt"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
+; Source: "content\settings\settings.txt"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
+; Source: "content\settings\TWR.asr"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
+Source: "content\EDBB\*"; DestDir: "{app}\EDBB"; Flags: ignoreversion recursesubdirs createallsubdirs;
 Source: "content\UniATIS\*"; DestDir: "{app}\UniATIS\"; Flags: ignoreversion recursesubdirs createallsubdirs;
 Source: "content\Sounds\*"; DestDir: "{app}\Sounds\"; Flags: ignoreversion recursesubdirs createallsubdirs;
 Source: "content\EuroScope.ttf"; DestDir: "{fonts}"; FontInstall: "EuroScope Normal"; Flags: onlyifdoesntexist uninsneveruninstall;
@@ -89,6 +91,7 @@ begin
   DownloadTool(EuroScope, ExpandConstant('{tmp}\EuroScope.zip'));
   DownloadTool(ModeS, ExpandConstant('{tmp}\ModeS.dll'));
   DownloadTool(VCH, ExpandConstant('{tmp}\VCH.dll'));
+  DownloadTool(RDF, ExpandConstant('{tmp}\RDF.zip'));
 
   // download them after the installer is ready
   idpDownloadAfter(wpReady);
@@ -101,12 +104,18 @@ end;
 // Return:
 //   Empty string if everything was succesful, else false
 function PrepareToInstall(var NeedsRestart: Boolean): String;
+var
+  RdfPath : String;
 begin
   DownloadTool(Airac, ExpandConstant('{tmp}\EDWW_AIRAC.7z'));
 
   Unzip(ExpandConstant('{tmp}\EuroScope.zip'), ExpandConstant('{tmp}\Euroscope'), false);
   Unzip(ExpandConstant('{tmp}\AFV.msi'), ExpandConstant('{tmp}\AFV'), true);
   Unzip(ExpandConstant('{tmp}\EDWW_AIRAC.7z'), ExpandConstant('{tmp}\AIRAC'), true);
+  Unzip(ExpandConstant('{tmp}\RDF.zip'), ExpandConstant('{tmp}'), true);
+  RdfPath := FindFile(ExpandConstant('{tmp}\RDF*'));
+  FileCopy(ExpandConstant('{tmp}\' + RdfPath + '\Release\RDFPlugin.dll'), ExpandConstant('{tmp}\RDFPlugin.dll'), false);
+  //MsgBox(FindFile(ExpandConstant('{tmp}\RDF*')), mbInformation, MB_OK);
   //Unzip(ExpandConstant('{tmp}\GRplugin.zip'), ExpandConstant('{tmp}\GRplugin'), false);
 
   Result := '';
@@ -143,8 +152,8 @@ begin
   SctFileName := FindFile(ExpandConstant('{tmp}\AIRAC') + '\*.sct');
 
   FileReplaceString('{app}\ATCStartup.bat', '%INSTALLATION_DIR%', ExpandConstant('{app}'));
-  FileReplaceString('{app}\EDDT_Field.prf', '%INSTALLATION_DIR%', ExpandConstant('{app}'));
-  FileReplaceString('{app}\EDDT_Field.prf', '%SECTOR_FILENAME%', SctFileName);
+  FileReplaceString('{app}\EDBBStarterKit.prf', '%INSTALLATION_DIR%', ExpandConstant('{app}'));
+  FileReplaceString('{app}\EDBBStarterKit.prf', '%SECTOR_FILENAME%', SctFileName);
   FileReplaceString('{app}\SectorFileProviderDescriptor.txt', '%INSTALLATION_DIR%', ExpandConstant('{app}'));
   FileReplaceString('{app}\settings\TWR.asr', '%INSTALLATION_DIR%', ExpandConstant('{app}'));
   FileReplaceString('{app}\settings\TWR.asr', '%SECTOR_FILENAME%', SctFileName);

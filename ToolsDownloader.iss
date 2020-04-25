@@ -146,8 +146,21 @@ begin
 end;
 
 // Brief:
+//   Adds RDF to the download list
+// Parameters:
+//   1. destination : Path where to store VCH
+// Result:
+//   True if the download was succesful
+function DownloadRDF(destination: String): boolean;
+//var
+//  suburl, url: String;
+begin
+  Result := DownloadFromGithub(destination, 'https://github.com/chembergj/RDF/releases', '/chembergj/RDF/archive');
+end;
+
+// Brief:
 //   Defines the different tools
-type ToolType = (EuroScope, Airac, ModeS, VCH);
+type ToolType = (EuroScope, Airac, ModeS, VCH, RDF);
 
 // Brief:
 //   Generic function to download the different tools
@@ -160,6 +173,7 @@ begin
     EuroScope: Result := DownloadEuroScope(destination);
     Airac: Result := DownloadAirac(destination);
     ModeS: Result := DownloadModeS(destination);
-    VCH: Result:= DownloadVCH(destination);
+    VCH: Result := DownloadVCH(destination);
+    RDF: Result := DownloadRDF(destination);
   end;
 end;

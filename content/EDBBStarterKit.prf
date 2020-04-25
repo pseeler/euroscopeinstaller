@@ -1,20 +1,20 @@
-RecentFiles	Recent1	\settings\TWR.asr
+RecentFiles	Recent1	\EDBB\settings\TWR.asr
 Settings	sector	%INSTALLATION_DIR%\%SECTOR_FILENAME%
-Settings	SettingsfileSYMBOLOGY	\settings\settings.txt
-Settings	SettingsfileVOICE	\settings\settings.txt
-Settings	SettingsfilePROFILE	\settings\settings.txt
-Settings	SettingsfileTAGS	\settings\settings.txt
-Settings	SettingsfileSIL	\settings\settings.txt
-Settings	SettingsfileSEL	\settings\settings.txt
-Settings	SettingsfileDEP	\settings\settings.txt
-Settings	SettingsfileARR	\settings\settings.txt
-Settings	SettingsfileFP	\settings\settings.txt
-Settings	SettingsfilePLUGINS	\settings\settings.txt
-Settings	Settingsfile	\settings\settings.txt
-Settings	SettingsfileSCREEN	\settings\settings.txt
-Settings	SettingsfileCONFLICT	\settings\settings.txt
-Settings	SettingsfileVCCS	\settings\settings.txt
-Settings	SettingsfilePILOTING	\settings\settings.txt
+Settings	SettingsfileSYMBOLOGY	\EDBB\settings\Symbology.txt
+Settings	SettingsfileVOICE	\EDBB\settings\VoiceChannels.txt
+Settings	SettingsfilePROFILE	\EDBB\settings\LoginProfiles.txt
+Settings	SettingsfileTAGS	\EDBB\settings\Tags.txt
+Settings	SettingsfileSIL	\EDBB\settings\Listen.txt
+Settings	SettingsfileSEL	\EDBB\settings\Listen.txt
+Settings	SettingsfileDEP	\EDBB\settings\Listen.txt
+Settings	SettingsfileARR	\EDBB\settings\Listen.txt
+Settings	SettingsfileFP	\EDBB\settings\Listen.txt
+Settings	SettingsfilePLUGINS	\EDBB\settings\Plugins.txt
+Settings	Settingsfile	\EDBB\settings\GeneralSettings.txt
+Settings	SettingsfileSCREEN	\EDBB\settings\ScreenLayout.txt
+Settings	SettingsfileCONFLICT	\EDBB\settings\Listen.txt
+Settings	SettingsfileVCCS	\EDBB\settings\VCCS.txt
+Settings	SettingsfilePILOTING	\EDBB\settings\Listen.txt
 Settings	alias	\settings\alias.txt
 Settings	airlines	\EDWW\ICAO\ICAO_Airlines.txt
 Settings	airports	\EDWW\ICAO\ICAO_Airports.txt
@@ -43,10 +43,9 @@ Sounds	Sound17	\Sounds\pointout.wav
 Sounds	Sound18	\Sounds\startup.wav
 Plugins	Plugin1	\VCH.dll
 Plugins	Plugin2	\ModeS.dll
+Plugins	Plugin3	\RDFPlugin.dll
 Plugins	Plugin2Display0	ModeS Function Relay (no display)
 Plugins	Plugin2Display1	Standard ES radar screen
+Plugins	Plugin3Display0	Standard ES radar screen
 Settings	AselKey	5111808
 Settings	FreqKey	3604480
-Plugins	Plugin3	\GRplugin.dll
-Plugins	Plugin3Display0	Ground Radar display
-Plugins	Plugin2Display2	Ground Radar display

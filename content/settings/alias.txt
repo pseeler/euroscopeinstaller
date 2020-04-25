@@ -2,7 +2,7 @@
 .sq hello, set squawk $squawk.
 .uni you're leaving my airspace, monitor Unicom 122.800- have a good flight!
 .far you're outside my airspace, monitor Unicom 122.800- have a good flight!
-.pd proceed direct to $1.
+.pd proceed direct $1.
 .clf climb FL$1.
 .dfl descend FL$1.
 .clr information $atiscode correct. Startup approved, cleared $arr via $sid departure, climb $1000ft, flight planned route, squawk $squawk.
@@ -29,8 +29,7 @@
 .dtr descend to reach FL $1 at $2.
 .welcome welcome to Berlin, vacate $1, cross $2, on the other side contact GND on 121.75, goodbye!
 .idarr identified. Expect ILS approach runway $1, descend FL$2.
-.da descend altitude $000ft, QNH$altim($arr).
-.co contact $radioname($1) on frequency $freq($1)
+.da descend altitude $1000ft, QNH$altim($arr).
+.co contact $radioname($1) on frequency $freq($1).
 .neuling Trainingsdokumente findest du auf https://de.wiki.vatsim-germany.org/Piloten_Trainingsdokumente
 .newbie you can find training resources on http://www.vatsim.net/prc
-.low you are below my airspace, I only cover the upper airspace (FL245 and above). Monitor Unicom 122.80, goodbye!
