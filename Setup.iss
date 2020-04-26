@@ -88,7 +88,7 @@ procedure InitializeWizard();
 begin
   // add the required (installable) plugins for Euroscope and VATSIM to the download list
   idpAddFileSize('https://audio.vatsim.net/downloads/standalone', ExpandConstant('{tmp}\AFV.msi'), 16064512);
-  idpAddFileSize('https://audio.vatsim.net/downloads/plugin', ExpandConstant('{tmp}\AfvEuroScopeBridge.dll'), 65536);
+  idpAddFileSize('https://audio.vatsim.net/downloads/plugin', ExpandConstant('{tmp}\AfvEuroScopeBridge.dll'), 59904);
   DownloadTool(EuroScope, ExpandConstant('{tmp}\EuroScope.zip'));
   DownloadTool(ModeS, ExpandConstant('{tmp}\ModeS.dll'));
   DownloadTool(VCH, ExpandConstant('{tmp}\VCH.dll'));

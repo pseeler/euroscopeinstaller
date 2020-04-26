@@ -28,7 +28,7 @@ begin
   end;
 
   // add the URL of the current release to the download list
-  idpAddFileSize(EuroScopeURL, destination, 21532672);
+  idpAddFileSize(EuroScopeURL, destination, 4616501);
   Result := true;
 end;
 
@@ -92,7 +92,7 @@ end;
 //   1. destination : Path where to store downloaded file
 // Result:
 //   True if the download was succesful
-function DownloadFromGithub(destination: String; htmlUrl: String; filename: String): boolean;
+function DownloadFromGithub(destination: String; htmlUrl: String; filename: String; size: Int64): boolean;
 var
   suburl, url: String;
 begin
@@ -108,7 +108,7 @@ begin
 
   // add the URL of the current release to the download list
   url := 'https://github.com/' + suburl;
-  idpAddFileSize(url, destination, 409600);
+  idpAddFileSize(url, destination, size);
   Result := true;
 end;
 
@@ -122,7 +122,7 @@ function DownloadModeS(destination: String): boolean;
 //var
 //  suburl, url: String;
 begin
-  Result := DownloadFromGithub(destination, 'https://github.com/ogruetzmann/ModeS/releases/', 'ModeS.dll');
+  Result := DownloadFromGithub(destination, 'https://github.com/ogruetzmann/ModeS/releases/', 'ModeS.dll', 409088);
 end;
 
 // Brief:
@@ -135,7 +135,7 @@ function DownloadVCH(destination: String): boolean;
 //var
 //  suburl, url: String;
 begin
-  Result := DownloadFromGithub(destination, 'https://github.com/DrFreas/VCH/releases', 'VCH.dll');
+  Result := DownloadFromGithub(destination, 'https://github.com/DrFreas/VCH/releases', 'VCH.dll', 27648);
 end;
 
 // Brief:
@@ -148,7 +148,7 @@ function DownloadRDF(destination: String): boolean;
 //var
 //  suburl, url: String;
 begin
-  Result := DownloadFromGithub(destination, 'https://github.com/chembergj/RDF/releases', '/chembergj/RDF/archive');
+  Result := DownloadFromGithub(destination, 'https://github.com/chembergj/RDF/releases', '/chembergj/RDF/archive', 307933);
 end;
 
 // Brief:
