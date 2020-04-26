@@ -1,5 +1,5 @@
 RecentFiles	Recent1	\EDBB\asr\TWR.asr
-Settings	sector	%INSTALLATION_DIR%\%SECTOR_FILENAME%
+Settings	sector	\%SECTOR_FILENAME%
 Settings	SettingsfileSYMBOLOGY	\EDBB\settings\Symbology.txt
 Settings	SettingsfileVOICE	\EDBB\settings\VoiceChannels.txt
 Settings	SettingsfilePROFILE	\EDBB\settings\LoginProfiles.txt
