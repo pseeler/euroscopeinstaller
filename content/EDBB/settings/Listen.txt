@@ -71,6 +71,7 @@ m_Column:RFL:4:1:22:30:30:1::::1
 m_Column:FR:2:1:63:0:0:1::::1
 m_Column:COM:3:0:11:32:0:1::::0
 m_Column:STS:4:1:59:28:28:1::::1
+m_Column:REQ:4:1:444:544:0:1:VCH:VCH::1
 m_Column:TEXT:10:0:19:29:0:1::::0
 END
 ARR
