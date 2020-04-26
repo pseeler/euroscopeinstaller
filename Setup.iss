@@ -7,7 +7,6 @@
 #define InstallerBuildVersion "0"
 #define InstallerPublisher "Sven Czarnian"
 #define InstallerURL "https://vatsim-germany.org/"
-#define InstallerExeName "ATCStartup.bat" 
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
@@ -21,7 +20,8 @@ AppPublisherURL={#InstallerURL}
 AppSupportURL={#InstallerURL}
 AppUpdatesURL={#InstallerURL}
 DefaultDirName={%HOMEPATH}\Euroscope
-DisableProgramGroupPage=yes
+DisableProgramGroupPage=no
+DefaultGroupName={#InstallerName}
 UsedUserAreasWarning=no
 PrivilegesRequired=admin
 PrivilegesRequiredOverridesAllowed=dialog
@@ -47,10 +47,8 @@ Source: "{tmp}\RDFPlugin.dll"; DestDir: "{app}"; Flags: external;
 Source: "{tmp}\Euroscope\*"; DestDir: "{app}"; Flags: external recursesubdirs createallsubdirs;
 Source: "{tmp}\AFV\*"; DestDir: "{app}\AudioForVATSIM"; Flags: external recursesubdirs createallsubdirs;
 Source: "{tmp}\AIRAC\*"; DestDir: "{app}"; Flags: external recursesubdirs createallsubdirs;
-Source: "content\ATCStartup.bat"; DestDir: "{app}"; Flags: ignoreversion;
 Source: "content\EDBBStarterKit.prf"; DestDir: "{app}"; Flags: ignoreversion;
 Source: "content\SectorFileProviderDescriptor.txt"; DestDir: "{app}"; Flags: ignoreversion;
-Source: "content\logo.ico"; DestDir: "{app}"; Flags: ignoreversion;
 Source: "content\settings\alias.txt"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
 Source: "content\EDBB\asr\APP.asr"; DestDir: "{app}\EDBB\asr\"; Flags: ignoreversion recursesubdirs createallsubdirs;
 Source: "content\EDBB\asr\CTR.asr"; DestDir: "{app}\EDBB\asr\"; Flags: ignoreversion recursesubdirs createallsubdirs;
@@ -74,12 +72,14 @@ Type: files; Name: "{app}\*.txt";
 Type: filesandordirs; Name: "{app}\AudioForVATSIM"
 
 [Icons]
-Name: "{autoprograms}\{#InstallerName}"; Filename: "{app}\{#InstallerExeName}"; IconFilename: "{app}\logo.ico"; IconIndex: 0; WorkingDir: "{app}"
-Name: "{autodesktop}\{#InstallerName}"; Filename: "{app}\{#InstallerExeName}"; Tasks: desktopicon; IconFilename: "{app}\logo.ico"; IconIndex: 0; WorkingDir: "{app}"
-Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\{#InstallerName}"; Filename: "{app}\{#InstallerExeName}"; Tasks: quicklaunchicon; IconFilename: "{app}\logo.ico"; IconIndex: 0; WorkingDir: "{app}"
+Name: "{group}\{#InstallerName} - Euroscope"; Filename: "{app}\EuroScope.exe"; WorkingDir: "{app}"
+Name: "{group}\{cm:UninstallProgram,{#InstallerName}}"; Filename: "{uninstallexe}"
+Name: "{group}\{#InstallerName} - AFV"; Filename: "{app}\AudioForVATSIM\AudioForVATSIM.exe"; WorkingDir: "{app}\AudioForVATSIM"
+Name: "{commondesktop}\{#InstallerName} - Euroscope"; Filename: "{app}\EuroScope.exe"; WorkingDir: "{app}"
+Name: "{commondesktop}\{#InstallerName} - AFV"; Filename: "{app}\AudioForVATSIM\AudioForVATSIM.exe"; WorkingDir: "{app}\AudioForVATSIM"
 
 [Run]
-Filename: "{app}\{#InstallerExeName}"; Description: "{cm:LaunchProgram,{#StringChange(InstallerName, '&', '&&')}}"; Flags: shellexec postinstall skipifsilent
+Filename: "{app}\EuroScope.exe"; Description: "{cm:LaunchProgram,{#StringChange(InstallerName, '&', '&&')}}"; Flags: shellexec postinstall skipifsilent
 
 [Code]
 // Brief:
@@ -150,7 +150,6 @@ var
 begin
   SctFileName := FindFile(ExpandConstant('{tmp}\AIRAC') + '\*.sct');
 
-  FileReplaceString('{app}\ATCStartup.bat', '%INSTALLATION_DIR%', ExpandConstant('{app}'));
   FileReplaceString('{app}\EDBBStarterKit.prf', '%SECTOR_FILENAME%', SctFileName);
   FileReplaceString('{app}\SectorFileProviderDescriptor.txt', '%INSTALLATION_DIR%', ExpandConstant('{app}'));
   FileReplaceString('{app}\EDBB\asr\APP.asr', '%INSTALLATION_DIR%', ExpandConstant('{app}'));
