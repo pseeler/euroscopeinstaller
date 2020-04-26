@@ -1,8 +1,8 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\pasca\Documents\EuroScopeBeta32a23\EDWW-AIRAC_20200423201956-200501-0001.sct
-SECTORTITLE:EDWW-AIRAC_20200423201956-200501-0001.sct
+SECTORFILE:%INSTALLATION_DIR%\%SECTOR_FILENAME%
+SECTORTITLE:%SECTOR_FILENAME%
 Airports:EDAB:name
 Airports:EDAB:symbol
 Airports:EDAC:name

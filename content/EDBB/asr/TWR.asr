@@ -1,5 +1,5 @@
-DisplayTypeName:Ground Radar display
-DisplayTypeNeedRadarContent:0
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
 SECTORFILE:%INSTALLATION_DIR%\%SECTOR_FILENAME%
 SECTORTITLE:%SECTOR_FILENAME%
@@ -480,9 +480,5 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
-TAGFAMILY:GRplugin
-WINDOWAREA:52.546683:13.260517:52.566718:13.321101
-PLUGIN:Ground Radar plugin:AirportElevation:112
-PLUGIN:Ground Radar plugin:AirportRadius:1.9
-PLUGIN:Ground Radar plugin:GroundMode:EDDT
-PLUGIN:Ground Radar plugin:TowerMode:EDDT
+TAGFAMILY:TR-Ground
+WINDOWAREA:52.548860:13.268697:52.564888:13.317164
