@@ -1,7 +1,7 @@
 #include ReadReg(HKLM, 'Software\WOW6432Node\Mitrich Software\Inno Download Plugin', 'InstallDir') + '\idp.iss'
 #include 'ToolsDownloader.iss'
 
-#define InstallerName "VATGER RG Berlin - ATC"
+#define InstallerName "VATGER RG Berlin"
 #define InstallerMajorVersion "1"
 #define InstallerMinorVersion "1"
 #define InstallerBuildVersion "0"
