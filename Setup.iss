@@ -47,21 +47,23 @@ Source: "{tmp}\RDFPlugin.dll"; DestDir: "{app}"; Flags: external;
 Source: "{tmp}\Euroscope\*"; DestDir: "{app}"; Flags: external recursesubdirs createallsubdirs;
 Source: "{tmp}\AFV\*"; DestDir: "{app}\AudioForVATSIM"; Flags: external recursesubdirs createallsubdirs;
 Source: "{tmp}\AIRAC\*"; DestDir: "{app}"; Flags: external recursesubdirs createallsubdirs;
-; Source: "{tmp}\GRplugin\GRplugin.dll"; DestDir: "{app}"; Flags: external;
-; Source: "{tmp}\GRplugin\GRpluginAircraftInfo.txt"; DestDir: "{app}"; Flags: external;
-; Source: "{tmp}\GRplugin\GRpluginCargoCallsigns.txt"; DestDir: "{app}"; Flags: external;
 Source: "content\ATCStartup.bat"; DestDir: "{app}"; Flags: ignoreversion;
 Source: "content\EDBBStarterKit.prf"; DestDir: "{app}"; Flags: ignoreversion;
 Source: "content\SectorFileProviderDescriptor.txt"; DestDir: "{app}"; Flags: ignoreversion;
 Source: "content\logo.ico"; DestDir: "{app}"; Flags: ignoreversion;
-Source: "content\GRPluginStands.txt"; DestDir: "{app}"; Flags: ignoreversion;
 Source: "content\settings\alias.txt"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
-; Source: "content\settings\ICAO_Aircraft.txt"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
-; Source: "content\settings\ICAO_Airlines.txt"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
-; Source: "content\settings\ICAO_Airports.txt"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
-; Source: "content\settings\settings.txt"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
-; Source: "content\settings\TWR.asr"; DestDir: "{app}\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
-Source: "content\EDBB\*"; DestDir: "{app}\EDBB"; Flags: ignoreversion recursesubdirs createallsubdirs;
+Source: "content\EDBB\asr\APP.asr"; DestDir: "{app}\EDBB\asr\"; Flags: ignoreversion recursesubdirs createallsubdirs;
+Source: "content\EDBB\asr\CTR.asr"; DestDir: "{app}\EDBB\asr\"; Flags: ignoreversion recursesubdirs createallsubdirs;
+Source: "content\EDBB\asr\TWR.asr"; DestDir: "{app}\EDBB\asr\"; Flags: ignoreversion recursesubdirs createallsubdirs;
+Source: "content\EDBB\settings\GeneralSettings.txt"; DestDir: "{app}\EDBB\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
+Source: "content\EDBB\settings\Listen.txt"; DestDir: "{app}\EDBB\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
+Source: "content\EDBB\settings\LoginProfiles.txt"; DestDir: "{app}\EDBB\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
+Source: "content\EDBB\settings\Plugins.txt"; DestDir: "{app}\EDBB\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
+Source: "content\EDBB\settings\ScreenLayout.txt"; DestDir: "{app}\EDBB\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
+Source: "content\EDBB\settings\Symbology.txt"; DestDir: "{app}\EDBB\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
+Source: "content\EDBB\settings\Tags.txt"; DestDir: "{app}\EDBB\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
+Source: "content\EDBB\settings\VCCS.txt"; DestDir: "{app}\EDBB\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
+Source: "content\EDBB\settings\VoiceChannels.txt"; DestDir: "{app}\EDBB\settings\"; Flags: ignoreversion recursesubdirs createallsubdirs;
 Source: "content\UniATIS\*"; DestDir: "{app}\UniATIS\"; Flags: ignoreversion recursesubdirs createallsubdirs;
 Source: "content\Sounds\*"; DestDir: "{app}\Sounds\"; Flags: ignoreversion recursesubdirs createallsubdirs;
 Source: "content\EuroScope.ttf"; DestDir: "{fonts}"; FontInstall: "EuroScope Normal"; Flags: onlyifdoesntexist uninsneveruninstall;
@@ -87,7 +89,6 @@ begin
   // add the required (installable) plugins for Euroscope and VATSIM to the download list
   idpAddFileSize('https://audio.vatsim.net/downloads/standalone', ExpandConstant('{tmp}\AFV.msi'), 16064512);
   idpAddFileSize('https://audio.vatsim.net/downloads/plugin', ExpandConstant('{tmp}\AfvEuroScopeBridge.dll'), 65536);
-  // idpAddFileSize('http://www.saunalahti.fi/~juholoc/EuroScope/plugins/GRplugin.zip', ExpandConstant('{tmp}\GRplugin.zip'), 3760128);
   DownloadTool(EuroScope, ExpandConstant('{tmp}\EuroScope.zip'));
   DownloadTool(ModeS, ExpandConstant('{tmp}\ModeS.dll'));
   DownloadTool(VCH, ExpandConstant('{tmp}\VCH.dll'));
@@ -115,8 +116,6 @@ begin
   Unzip(ExpandConstant('{tmp}\RDF.zip'), ExpandConstant('{tmp}'), true);
   RdfPath := FindFile(ExpandConstant('{tmp}\RDF*'));
   FileCopy(ExpandConstant('{tmp}\' + RdfPath + '\Release\RDFPlugin.dll'), ExpandConstant('{tmp}\RDFPlugin.dll'), false);
-  //MsgBox(FindFile(ExpandConstant('{tmp}\RDF*')), mbInformation, MB_OK);
-  //Unzip(ExpandConstant('{tmp}\GRplugin.zip'), ExpandConstant('{tmp}\GRplugin'), false);
 
   Result := '';
 end;
@@ -152,7 +151,6 @@ begin
   SctFileName := FindFile(ExpandConstant('{tmp}\AIRAC') + '\*.sct');
 
   FileReplaceString('{app}\ATCStartup.bat', '%INSTALLATION_DIR%', ExpandConstant('{app}'));
-  FileReplaceString('{app}\EDBBStarterKit.prf', '%INSTALLATION_DIR%', ExpandConstant('{app}'));
   FileReplaceString('{app}\EDBBStarterKit.prf', '%SECTOR_FILENAME%', SctFileName);
   FileReplaceString('{app}\SectorFileProviderDescriptor.txt', '%INSTALLATION_DIR%', ExpandConstant('{app}'));
   FileReplaceString('{app}\EDBB\asr\APP.asr', '%INSTALLATION_DIR%', ExpandConstant('{app}'));
