@@ -4,14 +4,14 @@
 #define InstallerName "VATGER RG Berlin"
 #define InstallerMajorVersion "1"
 #define InstallerMinorVersion "1"
-#define InstallerBuildVersion "0"
+#define InstallerBuildVersion "1"
 #define InstallerPublisher "Sven Czarnian"
 #define InstallerURL "https://vatsim-germany.org/"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{474CEB74-2D6E-42D9-AD02-171044B9EE54}}
+AppId={{F9E372D6-3558-4167-BB6D-CA18E205BBD2}}
 AppName={#InstallerName}
 AppVersion={#InstallerMajorVersion}.{#InstallerMinorVersion}.{#InstallerBuildVersion}
 AppVerName={#InstallerName} {#InstallerMajorVersion}.{#InstallerMinorVersion}.{#InstallerBuildVersion}
