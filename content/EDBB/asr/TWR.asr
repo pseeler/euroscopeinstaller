@@ -19,7 +19,6 @@ ARTCC boundary:EDMM_R_CTR:
 ARTCC boundary:EDMM_S_CTR:
 ARTCC boundary:EDWW_A_CTR:
 ARTCC boundary:EDWW_B_CTR:
-ARTCC boundary:FIR EBBU:
 ARTCC boundary:FIR EDGG:
 ARTCC boundary:FIR EDMM:
 ARTCC boundary:FIR EDWW:
@@ -230,12 +229,12 @@ Free Text:EDDB Taxiway\E17:freetext
 Free Text:EDDB Taxiway\E18:freetext
 Free Text:EDDB Taxiway\E19:freetext
 Free Text:EDDB Taxiway\F:freetext
-Free Text:EDDB Taxiway\G:freetext
 Free Text:EDDB Taxiway\H:freetext
 Free Text:EDDB Taxiway\H:freetext
 Free Text:EDDB Taxiway\J:freetext
 Free Text:EDDB Taxiway\K:freetext
 Free Text:EDDB Taxiway\K:freetext
+Free Text:EDDB Taxiway\K1:freetext
 Free Text:EDDB Taxiway\K1:freetext
 Free Text:EDDB Taxiway\K2:freetext
 Free Text:EDDB Taxiway\K3:freetext
